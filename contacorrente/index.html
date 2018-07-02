@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bem vindo</title>
+	<link rel="stylesheet" type="text/php" href="php/conta-corrente-web.php">
+	<link rel="stylesheet" type="text/css" href="css/bemVindo.css">
+	<link rel="stylesheet" href="css/logo.css">
+	<link rel="stylesheet" href="css/pagina.css">
+	<link rel="stylesheet" href="css/depSuce.css">
+	<script type="text/javascript" src="js/nome.js"></script>
+	<meta charset="utf-8">
+</head>
+<body onload="onLoaded()">
+	<header>
+		<div id="mensagemBemVindo">
+			Bem-vindo, <span id="nome_usuario">fulano</span>.
+		</div>
+		<div id="menu">
+			<img src="img/bla.jpg" id="imgLogo" width="150px" alt="Logo do Banco">
+			<div id="saldoAtual">
+				<h3>Seu saldo atual é: R$</h3>
+			</div>
+		</div>
+	</header>
+	<br>
+	<center>
+		<div id="formOperacao">
+			<form>
+				<fieldset id="operacao">
+					<legend>Nova Operação</legend>
+
+					<fieldset id="debOrCred" >
+						<legend>Operação</legend>
+						<input type="radio" name="oprc" value="deb" checked>Débito <br>
+						<input type="radio" name="oprc" value="cred">Crédito <br>
+					</fieldset>
+			</form>
+			<form>
+					<fieldset id="depValor">
+							<legend>Valor (R$)</legend>
+							<input type="number" id="valor">
+					</fieldset>
+					<br>
+					<input type="button" value="Realizar Operacao">
+					<input type="button" value="Atualizar Saldo">
+				</fieldset>
+			<form>
+			</form>
+				<fieldset id="depSuce" >
+						<h3>Operação realizada com sucesso. Saldo atual: R$</h3>
+				</fieldset>
+			</form>
+		</div>
+		Equipe: Allan Victor, Bruna Franco, Luan Fellipe.<br>
+
+					Redes de Computadores<br>
+						TIIINT-IFPR TB<br>
+							2018<br>
+	</center>
+
+</body>
+</html>
